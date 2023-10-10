@@ -79,9 +79,9 @@ WSGI_APPLICATION = 'Digital_Voting.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'Digital_Voting',
-        'USER': 'username',
-        'PASSWORD':'password',
+        'NAME': 'postgres',
+        'USER': 'postgres',
+        'PASSWORD':'Sarvada*12',
         'HOST':'localhost'
     }
 }
@@ -134,8 +134,8 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'assets')
 
 EMAIL_BACKEND ='django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST='smtp.gmail.com'
-EMAIL_HOST_USER='email_id'
-EMAIL_HOST_PASSWORD='password'
+EMAIL_HOST_USER='sarvadagoantiya@gmail.com'
+EMAIL_HOST_PASSWORD='Sarvada#12'
 EMAIL_PORT=587
 EMAIL_USE_TLS = True
 EMAIL_USE_SSL = False
